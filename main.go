@@ -15,4 +15,5 @@ func main() {
 	fibClosure()
 	fmt.Println(fibRecursion(10))
 	fmt.Printf("Removed duplicates from array %v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}))
+	fmt.Printf("Remove a particular elem from slice%v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeElement([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}, 2))
 }
