@@ -11,5 +11,7 @@ func main() {
 	fmt.Printf("Longest common preffix of %v is : %v \n", []string{"flower", "flow", "flight"}, longestCommonPrefix([]string{"flower", "flow", "flight"}))
 	fmt.Printf("Is Valid Parenthese %v ? : %v\n", "({{)[]", isValid("({{)[]"))
 	// fmt.Printf("Merge 2 sorted lists %v and %v ? : %v\n", []int{1, 2, 4}, []int{1, 2, 3}, mergeTwoLists([]int{1, 2, 4}, []int{1, 2, 3}))
-
+	fmt.Println(fib(10))
+	fibClosure()
+	fmt.Println(fibRecursion(10))
 }
