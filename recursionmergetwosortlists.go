@@ -1,3 +1,5 @@
+package main
+
 func recumergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
