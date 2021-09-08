@@ -16,4 +16,5 @@ func main() {
 	fmt.Println(fibRecursion(10))
 	fmt.Printf("Removed duplicates from array %v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}))
 	fmt.Printf("Remove a particular elem from slice%v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeElement([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}, 2))
+	fmt.Printf("Index of matching needle: %v in haystack: %v is: %v\n", "ll", "hello", haystackNeedle("hello", "ll"))
 }
