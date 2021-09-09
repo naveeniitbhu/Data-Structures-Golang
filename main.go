@@ -17,4 +17,5 @@ func main() {
 	fmt.Printf("Removed duplicates from array %v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}))
 	fmt.Printf("Remove a particular elem from slice%v - index-result %v\n", []int{0, 0, 1, 1, 1, 2, 2, 3, 4}, removeElement([]int{0, 0, 1, 1, 1, 2, 2, 3, 4}, 2))
 	fmt.Printf("Index of matching needle: %v in haystack: %v is: %v\n", "ll", "hello", haystackNeedle("hello", "ll"))
+	fmt.Printf("Position of target:%v in array:%v is : %v\n", 5, []int{1, 3, 4, 6}, searchInsertPostionInArray([]int{1, 3, 4, 6}, 5))
 }
